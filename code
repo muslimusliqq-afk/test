@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>🎁 Gift</title>
+
+  <!-- PART1: RED -->
+
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    /* PART3: HIDDEN-CSS-CODE */
+    body::after {
+      content: "PART3-SECRET";
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<img src="00000000000000000000abcdABCD" alt="gift" data-code="PART2-IN-ATTR">
+
+<script>
+  console.log("PART2: LOOK-IN-CODE");
+</script>
+
+</body>
+</html>
